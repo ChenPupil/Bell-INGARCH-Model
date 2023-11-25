@@ -1,4 +1,4 @@
-#########log-likelihood function#########
+#########log-likelihood function##########
 GBELLloglike <- function(theta, data) {
   n <- length(data)
   lambda = rep(0, n)
